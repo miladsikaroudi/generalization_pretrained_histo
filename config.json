@@ -1,0 +1,15 @@
+{
+    "learning_rate": 0.0001,
+    "momentum": 0.9,
+    "epochs": 50,
+    "batch_size": 64,
+    "augmentation_in_training": false,
+    "model": "kimianet",
+    "pretrained": false,
+    "kimianet_weight_path": "../kimianet_weights/KimiaNetPyTorchWeights.pth",
+    "dataframe_root": "/isilon/datasets/camelyon17/",
+    "trail_sites": ["center_0", "center_1", "center_2", "center_3", "center_4"],
+    "holdout_trial_site": "center_0",
+    "font_path": "/usr/share/fonts/type1/gsfonts/c059016l.pfb",
+    "train_val_portions": [70,10]
+}
