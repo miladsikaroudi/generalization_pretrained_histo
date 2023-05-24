@@ -1,11 +1,22 @@
 # Generalization of vision pre-trained models for histopathology
 This is the repository for generalization of vision pre-trained models for histopathology:
 
-The main objective is to improve the generalization of the pretrained model on unseen sites. 
+## Citing this work
 
-# Project Title
+If you use this code or the results for your research, please cite:
 
-The aim of this project is to develop a histopathological image classification model using PyTorch. In this project, we train and test the model on the Camelyon17 dataset. The main objective is to improve the generalization of the pretrained model on unseen sites.
+```
+@article{sikaroudi2023generalization,
+  title={Generalization of vision pre-trained models for histopathology},
+  author={Sikaroudi, Milad and Hosseini, Maryam and Gonzalez, Ricardo and Rahnamayan, Shahryar and Tizhoosh, HR},
+  journal={Scientific reports},
+  volume={13},
+  number={1},
+  pages={6065},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+```
 
 ## Getting Started
 
@@ -63,23 +74,6 @@ python main.py
 The script will then start training the model according to the parameters specified in the `config.json` file.
 
 The model weights will be saved in the current directory with a name specified by the parameters in the `config.json` file.
-
-## Citing this work
-
-If you use this code or the results for your research, please cite:
-
-```
-@article{sikaroudi2023generalization,
-  title={Generalization of vision pre-trained models for histopathology},
-  author={Sikaroudi, Milad and Hosseini, Maryam and Gonzalez, Ricardo and Rahnamayan, Shahryar and Tizhoosh, HR},
-  journal={Scientific reports},
-  volume={13},
-  number={1},
-  pages={6065},
-  year={2023},
-  publisher={Nature Publishing Group UK London}
-}
-```
 
 ## Contributions
 
