@@ -81,9 +81,9 @@ Your contributions are always welcome. If you find a bug or want to propose a ne
 
 ## Contact
 
-If you need to get in touch with the maintainer of this project, please contact [Your Name] at [Your Email Address].
+If you need to get in touch with the maintainer of this project, please contact me at msikaroudi@uwaterloo.ca.
 
 ## License
 
-This project is licensed under ... .
+This project is licensed under MIT License.
 
